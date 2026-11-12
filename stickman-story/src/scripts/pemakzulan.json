@@ -1,0 +1,60 @@
+{
+  "title": "Pemakzulan",
+  "compositionId": "PemakzulanStory",
+  "voice": "Kore",
+  "engine": "ComicEngine",
+  "fade": 12,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "captions": [
+        "Beberapa bulan lalu, kata paling rame di timeline kita cuma satu: pemakzulan. Eh, sekarang wakil presidennya malah mundur sendiri. Gimana bisa sampai situ?"
+      ]
+    },
+    {
+      "id": "fakta",
+      "type": "explain",
+      "audio": "2.mp3",
+      "look": "blue",
+      "board": ["PEMAKZULAN", "= PEMBERHENTIAN", "LEWAT MPR", "BUKAN MUNDUR"],
+      "accent": ["BEDAH KATA?"],
+      "captions": [
+        "Nah, pemakzulan itu bahasa hukumnya pemberhentian lewat MPR karena alasan tertentu, bukan pengunduran diri sukarela."
+      ]
+    },
+    {
+      "id": "penyebab",
+      "type": "causes",
+      "audio": "3.mp3",
+      "labels": ["USIA & KUALIFIKASI?", "MK 2023?", "120 DEWAN?"],
+      "captions": [
+        "Lalu, kenapa kata itu sampai trending?",
+        "Mulai dari debat usia dan kualifikasi, putusan MK yang kontroversial, sampai 120 anggota dewan yang mulai dorong pemakzulan.",
+        "Tekanan politik pun membesar, sampai wapres akhirnya pilih jalan lain."
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "4.mp3",
+      "pro": "STABILITAS",
+      "kontra": "MANDAT RAKYAT",
+      "captions": [
+        "Pro-nya: lebih baik mundur ketimbang krisis berkepanjangan, jaga stabilitas politik.",
+        "Kontra-nya: ini soal mandat rakyat yang diamanatkan lewat pemilu.",
+        "Dan bila kursi kosong, presiden angkat pengganti dengan persetujuan DPR, persis seperti UUD yang kita bahas."
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "5.mp3",
+      "captions": [
+        "Jadi, antara pemakzulan dan pengunduran diri, mana yang sebenarnya terjadi?",
+        "Mungkin baru kita pahami, pas sejarahnya benar-benar ditulis."
+      ]
+    }
+  ]
+}

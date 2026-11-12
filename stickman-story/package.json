@@ -1,0 +1,27 @@
+{
+  "name": "stickman-documentary-starter",
+  "version": "0.1.0",
+  "description": "Starter kit for simple vertical 2D stickman animations in Remotion (1080x1920, 30 fps).",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "still": "remotion still src/index.ts",
+    "render": "remotion render src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/google-fonts": "4.0.535",
+    "remotion": "4.0.535",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Koran",
+  "compositionId": "KoranStory",
+  "voice": "ArdiNeural",
+  "engine": "KoranEngine",
+  "fade": 12,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "kicker": "PANGAN • EKONOMI",
+      "headline": ["BERAS *MAHAL*,", "PETANI *TETAP*,", "*MISKIN*?"],
+      "deck": "Harga naik di kedua ujung rantai. Tapi keuntungannya berhenti di tengah.",
+      "stamp": "LAPORAN KHUSUS",
+      "expr": "worried",
+      "captions": [
+        "Beras premium di pasar tembus Rp16.203 per kilo.",
+        "Di tingkat petani, gabah dihargai sekitar Rp8.000.",
+        "Dua-duanya naik. Tapi kenapa petani tetap merasa nggak untung?"
+      ]
+    },
+    {
+      "id": "angka",
+      "type": "explain",
+      "audio": "2.mp3",
+      "kicker": "BEDAH ANGKA",
+      "headline": ["REKOR *NTP*,", "TAPI UNTUNG", "KE *SIAPA?*"],
+      "stats": [
+        {"value": "132,60", "label": "NILAI TUKAR PETANI"},
+        {"value": "Rp8.000", "label": "GABAH / KG"},
+        {"value": "Rp16.203", "label": "BERAS / KG"}
+      ],
+      "note": "Angka rata-rata nasional menyembunyikan petani kecil yang hanya punya sepetak sawah dan tak punya posisi tawar di pasar.",
+      "captions": [
+        "Bulan lalu BPS mencatat Nilai Tukar Petani 132,60. Rekor tertinggi sepanjang sejarah.",
+        "Artinya, harga yang diterima petani naik lebih cepat daripada biaya hidup dan biaya produksinya.",
+        "Di atas kertas, ini kabar bagus. Tapi angka rata-rata selalu menyembunyikan sesuatu."
+      ]
+    },
+    {
+      "id": "penyebab",
+      "type": "causes",
+      "audio": "3.mp3",
+      "kicker": "TIGA SEBAB",
+      "headline": ["KENAPA *UNTUNG*", "BERHENTI DI *TENGAH*"],
+      "cols": [
+        {"title": "BIAYA *PRODUKSI*", "body": "Pupuk, benih, dan upah buruh tani naik. Harga naik, cost naik juga."},
+        {"title": "RANTAI *PANJANG*", "body": "Dari sawah ke rak pasar, banyak tangan ambil untung di antaranya."},
+        {"title": "MAFIA *BERAS*", "body": "13 tersangka dari 8 kasus dan 15 merek, kata Kementerian Pertanian."}
+      ],
+      "captions": [
+        "Pertama, biaya produksi. Pupuk, benih, dan upah buruh tani ikut naik.",
+        "Kedua, rantai distribusi. Dari sawah sampai rak pasar, ada banyak tangan yang ambil untung.",
+        "Ketiga, permainan harga. Pemerintah sudah menetapkan 13 tersangka mafia beras dari 8 kasus."
+      ]
+    },
+    {
+      "id": "opini",
+      "type": "prokontra",
+      "audio": "4.mp3",
+      "kicker": "DUA SISI",
+      "headline": ["MUNDUR ATAU *BERTAHAN?*"],
+      "pro": "KEBIJAKAN JALAN",
+      "proBody": ["Serapan Bulog tembus 4,4 juta ton setara beras.", "Harga gabah di tingkat petani ikut naik."],
+      "kontra": "ANGKA MENIPU",
+      "kontraBody": ["Rata-rata tak bicara petani gurem.", "HET dan HPP masih dikaji pemerintah."],
+      "captions": [
+        "Yang setuju bilang: ini bukti kebijakan pangan jalan. Serapan Bulog tembus 4,4 juta ton.",
+        "Yang menolak bilang: angka rata-rata tidak bicara soal petani gurem yang cuma punya sepetak sawah.",
+        "Dan selama HET dan HPP masih dikaji, ketidakpastian itu tetap dibayar oleh petani."
+      ]
+    },
+    {
+      "id": "penutup",
+      "type": "ending",
+      "audio": "5.mp3",
+      "kicker": "PENUTUP",
+      "quote": ["SWASEMBADA ITU SOAL *PRODUKSI*.", "KESEJAHTERAAN ITU SOAL *HARGA*."],
+      "deck": "Kalau yang satu naik tapi yang lain jalan di tempat, untuk siapa panen ini?",
+      "stamp": "UNTUK SIAPA?",
+      "expr": "sad",
+      "captions": [
+        "Swasembada itu soal produksi. Kesejahteraan itu soal harga.",
+        "Kalau yang satu naik tapi yang lain jalan di tempat, sebenarnya untuk siapa panen ini?"
+      ]
+    }
+  ]
+}

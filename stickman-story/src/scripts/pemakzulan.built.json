@@ -1,0 +1,796 @@
+{
+  "title": "Pemakzulan",
+  "compositionId": "PemakzulanStory",
+  "voice": "Kore",
+  "fade": 12,
+  "total": 1950,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "captions": [
+        "Beberapa bulan lalu, kata paling rame di timeline kita cuma satu: pemakzulan. Eh, sekarang wakil presidennya malah mundur sendiri. Gimana bisa sampai situ?"
+      ],
+      "from": 0,
+      "len": 318,
+      "cues": [
+        {
+          "from": 0,
+          "to": 317,
+          "text": "Beberapa bulan lalu, kata paling rame di timeline kita cuma satu: pemakzulan. Eh, sekarang wakil presidennya malah mundur sendiri. Gimana bisa sampai situ?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Beberapa",
+              "from": 0,
+              "to": 18
+            },
+            {
+              "t": "bulan",
+              "from": 18,
+              "to": 31
+            },
+            {
+              "t": "lalu,",
+              "from": 31,
+              "to": 43
+            },
+            {
+              "t": "kata",
+              "from": 43,
+              "to": 53
+            },
+            {
+              "t": "paling",
+              "from": 53,
+              "to": 68
+            },
+            {
+              "t": "rame",
+              "from": 68,
+              "to": 78
+            },
+            {
+              "t": "di",
+              "from": 78,
+              "to": 84
+            },
+            {
+              "t": "timeline",
+              "from": 84,
+              "to": 103
+            },
+            {
+              "t": "kita",
+              "from": 103,
+              "to": 113
+            },
+            {
+              "t": "cuma",
+              "from": 113,
+              "to": 123
+            },
+            {
+              "t": "satu:",
+              "from": 123,
+              "to": 135
+            },
+            {
+              "t": "pemakzulan.",
+              "from": 135,
+              "to": 160
+            },
+            {
+              "t": "Eh,",
+              "from": 160,
+              "to": 168
+            },
+            {
+              "t": "sekarang",
+              "from": 168,
+              "to": 187
+            },
+            {
+              "t": "wakil",
+              "from": 187,
+              "to": 199
+            },
+            {
+              "t": "presidennya",
+              "from": 199,
+              "to": 224
+            },
+            {
+              "t": "malah",
+              "from": 224,
+              "to": 236
+            },
+            {
+              "t": "mundur",
+              "from": 236,
+              "to": 250
+            },
+            {
+              "t": "sendiri.",
+              "from": 250,
+              "to": 269
+            },
+            {
+              "t": "Gimana",
+              "from": 269,
+              "to": 283
+            },
+            {
+              "t": "bisa",
+              "from": 283,
+              "to": 293
+            },
+            {
+              "t": "sampai",
+              "from": 293,
+              "to": 308
+            },
+            {
+              "t": "situ?",
+              "from": 308,
+              "to": 317
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fakta",
+      "type": "explain",
+      "audio": "2.mp3",
+      "look": "blue",
+      "board": [
+        "PEMAKZULAN",
+        "= PEMBERHENTIAN",
+        "LEWAT MPR",
+        "BUKAN MUNDUR"
+      ],
+      "accent": [
+        "BEDAH KATA?"
+      ],
+      "captions": [
+        "Nah, pemakzulan itu bahasa hukumnya pemberhentian lewat MPR karena alasan tertentu, bukan pengunduran diri sukarela."
+      ],
+      "from": 318,
+      "len": 247,
+      "cues": [
+        {
+          "from": 318,
+          "to": 564,
+          "text": "Nah, pemakzulan itu bahasa hukumnya pemberhentian lewat MPR karena alasan tertentu, bukan pengunduran diri sukarela.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Nah,",
+              "from": 318,
+              "to": 329
+            },
+            {
+              "t": "pemakzulan",
+              "from": 329,
+              "to": 352
+            },
+            {
+              "t": "itu",
+              "from": 352,
+              "to": 361
+            },
+            {
+              "t": "bahasa",
+              "from": 361,
+              "to": 375
+            },
+            {
+              "t": "hukumnya",
+              "from": 375,
+              "to": 395
+            },
+            {
+              "t": "pemberhentian",
+              "from": 395,
+              "to": 424
+            },
+            {
+              "t": "lewat",
+              "from": 424,
+              "to": 437
+            },
+            {
+              "t": "MPR",
+              "from": 437,
+              "to": 446
+            },
+            {
+              "t": "karena",
+              "from": 446,
+              "to": 461
+            },
+            {
+              "t": "alasan",
+              "from": 461,
+              "to": 476
+            },
+            {
+              "t": "tertentu,",
+              "from": 476,
+              "to": 497
+            },
+            {
+              "t": "bukan",
+              "from": 497,
+              "to": 510
+            },
+            {
+              "t": "pengunduran",
+              "from": 510,
+              "to": 535
+            },
+            {
+              "t": "diri",
+              "from": 535,
+              "to": 546
+            },
+            {
+              "t": "sukarela.",
+              "from": 546,
+              "to": 564
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "penyebab",
+      "type": "causes",
+      "audio": "3.mp3",
+      "labels": [
+        "USIA & KUALIFIKASI?",
+        "MK 2023?",
+        "120 DEWAN?"
+      ],
+      "captions": [
+        "Lalu, kenapa kata itu sampai trending?",
+        "Mulai dari debat usia dan kualifikasi, putusan MK yang kontroversial, sampai 120 anggota dewan yang mulai dorong pemakzulan.",
+        "Tekanan politik pun membesar, sampai wapres akhirnya pilih jalan lain."
+      ],
+      "from": 565,
+      "len": 523,
+      "cues": [
+        {
+          "from": 565,
+          "to": 651,
+          "text": "Lalu, kenapa kata itu sampai trending?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Lalu,",
+              "from": 565,
+              "to": 579
+            },
+            {
+              "t": "kenapa",
+              "from": 579,
+              "to": 594
+            },
+            {
+              "t": "kata",
+              "from": 594,
+              "to": 606
+            },
+            {
+              "t": "itu",
+              "from": 606,
+              "to": 615
+            },
+            {
+              "t": "sampai",
+              "from": 615,
+              "to": 631
+            },
+            {
+              "t": "trending?",
+              "from": 631,
+              "to": 653
+            }
+          ]
+        },
+        {
+          "from": 651,
+          "to": 930,
+          "text": "Mulai dari debat usia dan kualifikasi, putusan MK yang kontroversial, sampai 120 anggota dewan yang mulai dorong pemakzulan.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Mulai",
+              "from": 651,
+              "to": 665
+            },
+            {
+              "t": "dari",
+              "from": 665,
+              "to": 676
+            },
+            {
+              "t": "debat",
+              "from": 676,
+              "to": 689
+            },
+            {
+              "t": "usia",
+              "from": 689,
+              "to": 701
+            },
+            {
+              "t": "dan",
+              "from": 701,
+              "to": 709
+            },
+            {
+              "t": "kualifikasi,",
+              "from": 709,
+              "to": 739
+            },
+            {
+              "t": "putusan",
+              "from": 739,
+              "to": 757
+            },
+            {
+              "t": "MK",
+              "from": 757,
+              "to": 763
+            },
+            {
+              "t": "yang",
+              "from": 763,
+              "to": 775
+            },
+            {
+              "t": "kontroversial,",
+              "from": 775,
+              "to": 808
+            },
+            {
+              "t": "sampai",
+              "from": 808,
+              "to": 824
+            },
+            {
+              "t": "120",
+              "from": 824,
+              "to": 833
+            },
+            {
+              "t": "anggota",
+              "from": 833,
+              "to": 851
+            },
+            {
+              "t": "dewan",
+              "from": 851,
+              "to": 865
+            },
+            {
+              "t": "yang",
+              "from": 865,
+              "to": 876
+            },
+            {
+              "t": "mulai",
+              "from": 876,
+              "to": 889
+            },
+            {
+              "t": "dorong",
+              "from": 889,
+              "to": 905
+            },
+            {
+              "t": "pemakzulan.",
+              "from": 905,
+              "to": 932
+            }
+          ]
+        },
+        {
+          "from": 930,
+          "to": 1087,
+          "text": "Tekanan politik pun membesar, sampai wapres akhirnya pilih jalan lain.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Tekanan",
+              "from": 930,
+              "to": 948
+            },
+            {
+              "t": "politik",
+              "from": 948,
+              "to": 966
+            },
+            {
+              "t": "pun",
+              "from": 966,
+              "to": 975
+            },
+            {
+              "t": "membesar,",
+              "from": 975,
+              "to": 998
+            },
+            {
+              "t": "sampai",
+              "from": 998,
+              "to": 1014
+            },
+            {
+              "t": "wapres",
+              "from": 1014,
+              "to": 1029
+            },
+            {
+              "t": "akhirnya",
+              "from": 1029,
+              "to": 1050
+            },
+            {
+              "t": "pilih",
+              "from": 1050,
+              "to": 1063
+            },
+            {
+              "t": "jalan",
+              "from": 1063,
+              "to": 1077
+            },
+            {
+              "t": "lain.",
+              "from": 1077,
+              "to": 1087
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "4.mp3",
+      "pro": "STABILITAS",
+      "kontra": "MANDAT RAKYAT",
+      "captions": [
+        "Pro-nya: lebih baik mundur ketimbang krisis berkepanjangan, jaga stabilitas politik.",
+        "Kontra-nya: ini soal mandat rakyat yang diamanatkan lewat pemilu.",
+        "Dan bila kursi kosong, presiden angkat pengganti dengan persetujuan DPR, persis seperti UUD yang kita bahas."
+      ],
+      "from": 1088,
+      "len": 558,
+      "cues": [
+        {
+          "from": 1088,
+          "to": 1271,
+          "text": "Pro-nya: lebih baik mundur ketimbang krisis berkepanjangan, jaga stabilitas politik.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Pro-nya:",
+              "from": 1088,
+              "to": 1108
+            },
+            {
+              "t": "lebih",
+              "from": 1108,
+              "to": 1121
+            },
+            {
+              "t": "baik",
+              "from": 1121,
+              "to": 1132
+            },
+            {
+              "t": "mundur",
+              "from": 1132,
+              "to": 1147
+            },
+            {
+              "t": "ketimbang",
+              "from": 1147,
+              "to": 1169
+            },
+            {
+              "t": "krisis",
+              "from": 1169,
+              "to": 1184
+            },
+            {
+              "t": "berkepanjangan,",
+              "from": 1184,
+              "to": 1219
+            },
+            {
+              "t": "jaga",
+              "from": 1219,
+              "to": 1230
+            },
+            {
+              "t": "stabilitas",
+              "from": 1230,
+              "to": 1254
+            },
+            {
+              "t": "politik.",
+              "from": 1254,
+              "to": 1273
+            }
+          ]
+        },
+        {
+          "from": 1271,
+          "to": 1412,
+          "text": "Kontra-nya: ini soal mandat rakyat yang diamanatkan lewat pemilu.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Kontra-nya:",
+              "from": 1271,
+              "to": 1297
+            },
+            {
+              "t": "ini",
+              "from": 1297,
+              "to": 1306
+            },
+            {
+              "t": "soal",
+              "from": 1306,
+              "to": 1317
+            },
+            {
+              "t": "mandat",
+              "from": 1317,
+              "to": 1332
+            },
+            {
+              "t": "rakyat",
+              "from": 1332,
+              "to": 1347
+            },
+            {
+              "t": "yang",
+              "from": 1347,
+              "to": 1358
+            },
+            {
+              "t": "diamanatkan",
+              "from": 1358,
+              "to": 1384
+            },
+            {
+              "t": "lewat",
+              "from": 1384,
+              "to": 1397
+            },
+            {
+              "t": "pemilu.",
+              "from": 1397,
+              "to": 1414
+            }
+          ]
+        },
+        {
+          "from": 1412,
+          "to": 1645,
+          "text": "Dan bila kursi kosong, presiden angkat pengganti dengan persetujuan DPR, persis seperti UUD yang kita bahas.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Dan",
+              "from": 1412,
+              "to": 1421
+            },
+            {
+              "t": "bila",
+              "from": 1421,
+              "to": 1432
+            },
+            {
+              "t": "kursi",
+              "from": 1432,
+              "to": 1444
+            },
+            {
+              "t": "kosong,",
+              "from": 1444,
+              "to": 1462
+            },
+            {
+              "t": "presiden",
+              "from": 1462,
+              "to": 1481
+            },
+            {
+              "t": "angkat",
+              "from": 1481,
+              "to": 1496
+            },
+            {
+              "t": "pengganti",
+              "from": 1496,
+              "to": 1518
+            },
+            {
+              "t": "dengan",
+              "from": 1518,
+              "to": 1533
+            },
+            {
+              "t": "persetujuan",
+              "from": 1533,
+              "to": 1559
+            },
+            {
+              "t": "DPR,",
+              "from": 1559,
+              "to": 1570
+            },
+            {
+              "t": "persis",
+              "from": 1570,
+              "to": 1585
+            },
+            {
+              "t": "seperti",
+              "from": 1585,
+              "to": 1603
+            },
+            {
+              "t": "UUD",
+              "from": 1603,
+              "to": 1611
+            },
+            {
+              "t": "yang",
+              "from": 1611,
+              "to": 1622
+            },
+            {
+              "t": "kita",
+              "from": 1622,
+              "to": 1633
+            },
+            {
+              "t": "bahas.",
+              "from": 1633,
+              "to": 1645
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "5.mp3",
+      "captions": [
+        "Jadi, antara pemakzulan dan pengunduran diri, mana yang sebenarnya terjadi?",
+        "Mungkin baru kita pahami, pas sejarahnya benar-benar ditulis."
+      ],
+      "from": 1646,
+      "len": 292,
+      "cues": [
+        {
+          "from": 1646,
+          "to": 1807,
+          "text": "Jadi, antara pemakzulan dan pengunduran diri, mana yang sebenarnya terjadi?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Jadi,",
+              "from": 1646,
+              "to": 1659
+            },
+            {
+              "t": "antara",
+              "from": 1659,
+              "to": 1674
+            },
+            {
+              "t": "pemakzulan",
+              "from": 1674,
+              "to": 1698
+            },
+            {
+              "t": "dan",
+              "from": 1698,
+              "to": 1706
+            },
+            {
+              "t": "pengunduran",
+              "from": 1706,
+              "to": 1732
+            },
+            {
+              "t": "diri,",
+              "from": 1732,
+              "to": 1745
+            },
+            {
+              "t": "mana",
+              "from": 1745,
+              "to": 1755
+            },
+            {
+              "t": "yang",
+              "from": 1755,
+              "to": 1766
+            },
+            {
+              "t": "sebenarnya",
+              "from": 1766,
+              "to": 1790
+            },
+            {
+              "t": "terjadi?",
+              "from": 1790,
+              "to": 1809
+            }
+          ]
+        },
+        {
+          "from": 1807,
+          "to": 1937,
+          "text": "Mungkin baru kita pahami, pas sejarahnya benar-benar ditulis.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Mungkin",
+              "from": 1807,
+              "to": 1824
+            },
+            {
+              "t": "baru",
+              "from": 1824,
+              "to": 1835
+            },
+            {
+              "t": "kita",
+              "from": 1835,
+              "to": 1846
+            },
+            {
+              "t": "pahami,",
+              "from": 1846,
+              "to": 1863
+            },
+            {
+              "t": "pas",
+              "from": 1863,
+              "to": 1871
+            },
+            {
+              "t": "sejarahnya",
+              "from": 1871,
+              "to": 1895
+            },
+            {
+              "t": "benar-benar",
+              "from": 1895,
+              "to": 1921
+            },
+            {
+              "t": "ditulis.",
+              "from": 1921,
+              "to": 1937
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

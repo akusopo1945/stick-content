@@ -1,0 +1,55 @@
+{
+  "fps": 30,
+  "total": 768,
+  "scenes": [
+    {
+      "id": "intro",
+      "len": 164,
+      "cues": [
+        {
+          "from": 0,
+          "to": 152,
+          "text": "Hai! Pernah kepikiran, apa itu kecerdasan buatan?",
+          "pos": "lower"
+        }
+      ]
+    },
+    {
+      "id": "explain",
+      "len": 271,
+      "cues": [
+        {
+          "from": 0,
+          "to": 135,
+          "text": "AI adalah mesin yang belajar dari ribuan contoh data.",
+          "pos": "lower"
+        },
+        {
+          "from": 138,
+          "to": 258,
+          "text": "Sama seperti kita yang belajar dari pengalaman.",
+          "pos": "lower"
+        }
+      ]
+    },
+    {
+      "id": "diagram",
+      "len": 333,
+      "cues": [
+        {
+          "from": 0,
+          "to": 172,
+          "text": "Data masuk, dilatih jadi model, lalu menghasilkan keputusan.",
+          "pos": "lower"
+        },
+        {
+          "from": 175,
+          "to": 320,
+          "text": "Sederhana kan? Itu dia, kecerdasan buatan!",
+          "pos": "lower"
+        }
+      ]
+    }
+  ],
+  "narration": "audio/narration.mp3"
+}

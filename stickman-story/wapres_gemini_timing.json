@@ -1,0 +1,108 @@
+{
+  "fps": 30,
+  "total": 2065,
+  "scenes": [
+    {
+      "id": "hook",
+      "from": 0,
+      "len": 157,
+      "cues": [
+        {
+          "from": 0,
+          "to": 148,
+          "text": "Pernah kepikiran: bisa nggak sih wakil presiden mundur di tengah jalan?",
+          "pos": "lower"
+        }
+      ]
+    },
+    {
+      "id": "konstitusi",
+      "from": 157,
+      "len": 509,
+      "cues": [
+        {
+          "from": 157,
+          "to": 374,
+          "text": "Di Indonesia, presiden dan wakil presiden dipilih berpasangan, untuk lima tahun.",
+          "pos": "lower"
+        },
+        {
+          "from": 374,
+          "to": 657,
+          "text": "Tapi UUD 1945 sebenarnya lebih banyak mengatur pemberhentian lewat MPR, bukan pengunduran diri sukarela.",
+          "pos": "lower"
+        }
+      ]
+    },
+    {
+      "id": "penyebab",
+      "from": 666,
+      "len": 529,
+      "cues": [
+        {
+          "from": 666,
+          "to": 796,
+          "text": "Lalu, bagaimana bisa seorang wakil presiden lengser?",
+          "pos": "lower"
+        },
+        {
+          "from": 796,
+          "to": 988,
+          "text": "Bisa karena meninggal, diberhentikan lewat proses, atau... mengundurkan diri.",
+          "pos": "lower"
+        },
+        {
+          "from": 988,
+          "to": 1186,
+          "text": "Nah, soal mengundurkan diri ini, hukumnya masih mengambang dan jadi perdebatan.",
+          "pos": "lower"
+        }
+      ]
+    },
+    {
+      "id": "prokontra",
+      "from": 1195,
+      "len": 565,
+      "cues": [
+        {
+          "from": 1195,
+          "to": 1407,
+          "text": "Kalau kursi wakil presiden kosong, presiden mengangkat pengganti dengan persetujuan DPR.",
+          "pos": "lower"
+        },
+        {
+          "from": 1407,
+          "to": 1590,
+          "text": "Pro-nya: presiden lebih leluasa. Kontra-nya: DPR pegang kendali persetujuan.",
+          "pos": "lower"
+        },
+        {
+          "from": 1590,
+          "to": 1751,
+          "text": "Dan bila presiden pun berhalangan, MPR yang menentukan arah negara.",
+          "pos": "lower"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "from": 1760,
+      "len": 305,
+      "cues": [
+        {
+          "from": 1760,
+          "to": 1887,
+          "text": "Jadi, siapa yang sebenarnya menjaga kursi itu?",
+          "pos": "lower"
+        },
+        {
+          "from": 1887,
+          "to": 2056,
+          "text": "Mungkin baru kita sadari... ketika waktunya benar-benar tiba.",
+          "pos": "lower"
+        }
+      ]
+    }
+  ],
+  "narration": "audio/wapres_gemini.mp3"
+}

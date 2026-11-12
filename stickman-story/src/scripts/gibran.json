@@ -1,0 +1,60 @@
+{
+  "title": "Gibran",
+  "compositionId": "GibranStory",
+  "voice": "Kore",
+  "fade": 12,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "gibran_hook.mp3",
+      "captions": [
+        "Beberapa bulan lalu, kata paling rame di timeline kita cuma satu: pemakzulan. Eh, sekarang wakil presidennya malah mundur sendiri. Gimana bisa sampai situ?"
+      ]
+    },
+    {
+      "id": "fakta",
+      "type": "explain",
+      "audio": "gibran_explain.mp3",
+      "look": "blue",
+      "board": ["PEMAKZULAN", "= PEMBERHENTIAN", "LEWAT MPR", "BUKAN MUNDUR"],
+      "accent": ["FLASHBACK?"],
+      "captions": [
+        "Flashback dulu: yang bikin panas adalah soal usia dan kualifikasi, polemik Pilpres 2024, sampai 120 anggota dewan yang dorong proses.",
+        "Nah, pemakzulan itu bahasa hukumnya pemberhentian lewat MPR karena alasan tertentu, bukan pengunduran diri sukarela."
+      ]
+    },
+    {
+      "id": "penyebab",
+      "type": "causes",
+      "audio": "gibran_causes.mp3",
+      "labels": ["USIA & KUALIFIKASI?", "MK 2023?", "120 DEWAN?"],
+      "captions": [
+        "Lalu, kenapa kata itu sampai trending?",
+        "Mulai dari debat usia dan kualifikasi, putusan MK yang kontroversial, sampai 120 anggota dewan yang mulai dorong pemakzulan.",
+        "Tekanan politik pun membesar, sampai wapres akhirnya pilih jalan lain."
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "gibran_prokontra.mp3",
+      "pro": "STABILITAS",
+      "kontra": "MANDAT RAKYAT",
+      "captions": [
+        "Pro-nya: lebih baik mundur ketimbang krisis berkepanjangan, jaga stabilitas politik.",
+        "Kontra-nya: ini soal mandat rakyat yang diamanatkan lewat pemilu.",
+        "Dan bila kursi kosong, presiden angkat pengganti dengan persetujuan DPR, persis seperti UUD yang kita bahas."
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "gibran_ending.mp3",
+      "captions": [
+        "Jadi, antara pemakzulan dan pengunduran diri, mana yang sebenarnya terjadi?",
+        "Mungkin baru kita pahami, pas sejarahnya benar-benar ditulis."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "title": "Wapres",
+  "compositionId": "WapresStory",
+  "voice": "Kore",
+  "fade": 12,
+  "total": 2032,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "hook.mp3",
+      "captions": [
+        "Pernah kepikiran: bisa nggak sih wakil presiden mundur di tengah jalan?"
+      ],
+      "from": 0,
+      "len": 148,
+      "cues": [
+        {
+          "from": 0,
+          "to": 147,
+          "text": "Pernah kepikiran: bisa nggak sih wakil presiden mundur di tengah jalan?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Pernah",
+              "from": 0,
+              "to": 15
+            },
+            {
+              "t": "kepikiran:",
+              "from": 15,
+              "to": 38
+            },
+            {
+              "t": "bisa",
+              "from": 38,
+              "to": 48
+            },
+            {
+              "t": "nggak",
+              "from": 48,
+              "to": 60
+            },
+            {
+              "t": "sih",
+              "from": 60,
+              "to": 69
+            },
+            {
+              "t": "wakil",
+              "from": 69,
+              "to": 81
+            },
+            {
+              "t": "presiden",
+              "from": 81,
+              "to": 100
+            },
+            {
+              "t": "mundur",
+              "from": 100,
+              "to": 115
+            },
+            {
+              "t": "di",
+              "from": 115,
+              "to": 121
+            },
+            {
+              "t": "tengah",
+              "from": 121,
+              "to": 135
+            },
+            {
+              "t": "jalan?",
+              "from": 135,
+              "to": 147
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konstitusi",
+      "type": "explain",
+      "audio": "konstitusi.mp3",
+      "look": "blue",
+      "board": [
+        "PRESIDEN",
+        "+",
+        "WAPRES",
+        "5 TAHUN"
+      ],
+      "accent": [
+        "BERPASANGAN"
+      ],
+      "captions": [
+        "Di Indonesia, presiden dan wakil presiden dipilih berpasangan, untuk lima tahun.",
+        "Tapi UUD 1945 sebenarnya lebih banyak mengatur pemberhentian lewat MPR, bukan pengunduran diri sukarela."
+      ],
+      "from": 148,
+      "len": 500,
+      "cues": [
+        {
+          "from": 148,
+          "to": 365,
+          "text": "Di Indonesia, presiden dan wakil presiden dipilih berpasangan, untuk lima tahun.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Di",
+              "from": 148,
+              "to": 156
+            },
+            {
+              "t": "Indonesia,",
+              "from": 156,
+              "to": 186
+            },
+            {
+              "t": "presiden",
+              "from": 186,
+              "to": 210
+            },
+            {
+              "t": "dan",
+              "from": 210,
+              "to": 221
+            },
+            {
+              "t": "wakil",
+              "from": 221,
+              "to": 238
+            },
+            {
+              "t": "presiden",
+              "from": 238,
+              "to": 262
+            },
+            {
+              "t": "dipilih",
+              "from": 262,
+              "to": 284
+            },
+            {
+              "t": "berpasangan,",
+              "from": 284,
+              "to": 319
+            },
+            {
+              "t": "untuk",
+              "from": 319,
+              "to": 335
+            },
+            {
+              "t": "lima",
+              "from": 335,
+              "to": 349
+            },
+            {
+              "t": "tahun.",
+              "from": 349,
+              "to": 368
+            }
+          ]
+        },
+        {
+          "from": 365,
+          "to": 647,
+          "text": "Tapi UUD 1945 sebenarnya lebih banyak mengatur pemberhentian lewat MPR, bukan pengunduran diri sukarela.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Tapi",
+              "from": 365,
+              "to": 379
+            },
+            {
+              "t": "UUD",
+              "from": 379,
+              "to": 389
+            },
+            {
+              "t": "1945",
+              "from": 389,
+              "to": 403
+            },
+            {
+              "t": "sebenarnya",
+              "from": 403,
+              "to": 433
+            },
+            {
+              "t": "lebih",
+              "from": 433,
+              "to": 449
+            },
+            {
+              "t": "banyak",
+              "from": 449,
+              "to": 468
+            },
+            {
+              "t": "mengatur",
+              "from": 468,
+              "to": 493
+            },
+            {
+              "t": "pemberhentian",
+              "from": 493,
+              "to": 531
+            },
+            {
+              "t": "lewat",
+              "from": 531,
+              "to": 547
+            },
+            {
+              "t": "MPR,",
+              "from": 547,
+              "to": 561
+            },
+            {
+              "t": "bukan",
+              "from": 561,
+              "to": 577
+            },
+            {
+              "t": "pengunduran",
+              "from": 577,
+              "to": 610
+            },
+            {
+              "t": "diri",
+              "from": 610,
+              "to": 624
+            },
+            {
+              "t": "sukarela.",
+              "from": 624,
+              "to": 647
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "penyebab",
+      "type": "causes",
+      "audio": "penyebab.mp3",
+      "labels": [
+        "VISI?",
+        "KESEHATAN?",
+        "POLITIK?"
+      ],
+      "captions": [
+        "Lalu, bagaimana bisa seorang wakil presiden lengser?",
+        "Bisa karena meninggal, diberhentikan lewat proses, atau... mengundurkan diri.",
+        "Nah, soal mengundurkan diri ini, hukumnya masih mengambang dan jadi perdebatan."
+      ],
+      "from": 648,
+      "len": 520,
+      "cues": [
+        {
+          "from": 648,
+          "to": 778,
+          "text": "Lalu, bagaimana bisa seorang wakil presiden lengser?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Lalu,",
+              "from": 648,
+              "to": 663
+            },
+            {
+              "t": "bagaimana",
+              "from": 663,
+              "to": 688
+            },
+            {
+              "t": "bisa",
+              "from": 688,
+              "to": 700
+            },
+            {
+              "t": "seorang",
+              "from": 700,
+              "to": 720
+            },
+            {
+              "t": "wakil",
+              "from": 720,
+              "to": 736
+            },
+            {
+              "t": "presiden",
+              "from": 736,
+              "to": 758
+            },
+            {
+              "t": "lengser?",
+              "from": 758,
+              "to": 781
+            }
+          ]
+        },
+        {
+          "from": 778,
+          "to": 970,
+          "text": "Bisa karena meninggal, diberhentikan lewat proses, atau... mengundurkan diri.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Bisa",
+              "from": 778,
+              "to": 790
+            },
+            {
+              "t": "karena",
+              "from": 790,
+              "to": 808
+            },
+            {
+              "t": "meninggal,",
+              "from": 808,
+              "to": 835
+            },
+            {
+              "t": "diberhentikan",
+              "from": 835,
+              "to": 870
+            },
+            {
+              "t": "lewat",
+              "from": 870,
+              "to": 885
+            },
+            {
+              "t": "proses,",
+              "from": 885,
+              "to": 905
+            },
+            {
+              "t": "atau...",
+              "from": 905,
+              "to": 925
+            },
+            {
+              "t": "mengundurkan",
+              "from": 925,
+              "to": 958
+            },
+            {
+              "t": "diri.",
+              "from": 958,
+              "to": 972
+            }
+          ]
+        },
+        {
+          "from": 970,
+          "to": 1167,
+          "text": "Nah, soal mengundurkan diri ini, hukumnya masih mengambang dan jadi perdebatan.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Nah,",
+              "from": 970,
+              "to": 983
+            },
+            {
+              "t": "soal",
+              "from": 983,
+              "to": 995
+            },
+            {
+              "t": "mengundurkan",
+              "from": 995,
+              "to": 1028
+            },
+            {
+              "t": "diri",
+              "from": 1028,
+              "to": 1040
+            },
+            {
+              "t": "ini,",
+              "from": 1040,
+              "to": 1053
+            },
+            {
+              "t": "hukumnya",
+              "from": 1053,
+              "to": 1075
+            },
+            {
+              "t": "masih",
+              "from": 1075,
+              "to": 1090
+            },
+            {
+              "t": "mengambang",
+              "from": 1090,
+              "to": 1118
+            },
+            {
+              "t": "dan",
+              "from": 1118,
+              "to": 1128
+            },
+            {
+              "t": "jadi",
+              "from": 1128,
+              "to": 1140
+            },
+            {
+              "t": "perdebatan.",
+              "from": 1140,
+              "to": 1167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "prokontra.mp3",
+      "pro": "LELUASA",
+      "kontra": "DPR KUAT",
+      "captions": [
+        "Kalau kursi wakil presiden kosong, presiden mengangkat pengganti dengan persetujuan DPR.",
+        "Pro-nya: presiden lebih leluasa. Kontra-nya: DPR pegang kendali persetujuan.",
+        "Dan bila presiden pun berhalangan, MPR yang menentukan arah negara."
+      ],
+      "from": 1168,
+      "len": 556,
+      "cues": [
+        {
+          "from": 1168,
+          "to": 1380,
+          "text": "Kalau kursi wakil presiden kosong, presiden mengangkat pengganti dengan persetujuan DPR.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Kalau",
+              "from": 1168,
+              "to": 1182
+            },
+            {
+              "t": "kursi",
+              "from": 1182,
+              "to": 1197
+            },
+            {
+              "t": "wakil",
+              "from": 1197,
+              "to": 1211
+            },
+            {
+              "t": "presiden",
+              "from": 1211,
+              "to": 1233
+            },
+            {
+              "t": "kosong,",
+              "from": 1233,
+              "to": 1252
+            },
+            {
+              "t": "presiden",
+              "from": 1252,
+              "to": 1274
+            },
+            {
+              "t": "mengangkat",
+              "from": 1274,
+              "to": 1300
+            },
+            {
+              "t": "pengganti",
+              "from": 1300,
+              "to": 1325
+            },
+            {
+              "t": "dengan",
+              "from": 1325,
+              "to": 1341
+            },
+            {
+              "t": "persetujuan",
+              "from": 1341,
+              "to": 1370
+            },
+            {
+              "t": "DPR.",
+              "from": 1370,
+              "to": 1382
+            }
+          ]
+        },
+        {
+          "from": 1380,
+          "to": 1563,
+          "text": "Pro-nya: presiden lebih leluasa. Kontra-nya: DPR pegang kendali persetujuan.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Pro-nya:",
+              "from": 1380,
+              "to": 1402
+            },
+            {
+              "t": "presiden",
+              "from": 1402,
+              "to": 1423
+            },
+            {
+              "t": "lebih",
+              "from": 1423,
+              "to": 1438
+            },
+            {
+              "t": "leluasa.",
+              "from": 1438,
+              "to": 1459
+            },
+            {
+              "t": "Kontra-nya:",
+              "from": 1459,
+              "to": 1488
+            },
+            {
+              "t": "DPR",
+              "from": 1488,
+              "to": 1498
+            },
+            {
+              "t": "pegang",
+              "from": 1498,
+              "to": 1515
+            },
+            {
+              "t": "kendali",
+              "from": 1515,
+              "to": 1534
+            },
+            {
+              "t": "persetujuan.",
+              "from": 1534,
+              "to": 1565
+            }
+          ]
+        },
+        {
+          "from": 1563,
+          "to": 1723,
+          "text": "Dan bila presiden pun berhalangan, MPR yang menentukan arah negara.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Dan",
+              "from": 1563,
+              "to": 1573
+            },
+            {
+              "t": "bila",
+              "from": 1573,
+              "to": 1585
+            },
+            {
+              "t": "presiden",
+              "from": 1585,
+              "to": 1606
+            },
+            {
+              "t": "pun",
+              "from": 1606,
+              "to": 1616
+            },
+            {
+              "t": "berhalangan,",
+              "from": 1616,
+              "to": 1647
+            },
+            {
+              "t": "MPR",
+              "from": 1647,
+              "to": 1657
+            },
+            {
+              "t": "yang",
+              "from": 1657,
+              "to": 1669
+            },
+            {
+              "t": "menentukan",
+              "from": 1669,
+              "to": 1695
+            },
+            {
+              "t": "arah",
+              "from": 1695,
+              "to": 1707
+            },
+            {
+              "t": "negara.",
+              "from": 1707,
+              "to": 1723
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "ending.mp3",
+      "captions": [
+        "Jadi, siapa yang sebenarnya menjaga kursi itu?",
+        "Mungkin baru kita sadari... ketika waktunya benar-benar tiba."
+      ],
+      "from": 1724,
+      "len": 296,
+      "cues": [
+        {
+          "from": 1724,
+          "to": 1851,
+          "text": "Jadi, siapa yang sebenarnya menjaga kursi itu?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Jadi,",
+              "from": 1724,
+              "to": 1741
+            },
+            {
+              "t": "siapa",
+              "from": 1741,
+              "to": 1757
+            },
+            {
+              "t": "yang",
+              "from": 1757,
+              "to": 1771
+            },
+            {
+              "t": "sebenarnya",
+              "from": 1771,
+              "to": 1801
+            },
+            {
+              "t": "menjaga",
+              "from": 1801,
+              "to": 1823
+            },
+            {
+              "t": "kursi",
+              "from": 1823,
+              "to": 1840
+            },
+            {
+              "t": "itu?",
+              "from": 1840,
+              "to": 1854
+            }
+          ]
+        },
+        {
+          "from": 1851,
+          "to": 2019,
+          "text": "Mungkin baru kita sadari... ketika waktunya benar-benar tiba.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Mungkin",
+              "from": 1851,
+              "to": 1873
+            },
+            {
+              "t": "baru",
+              "from": 1873,
+              "to": 1887
+            },
+            {
+              "t": "kita",
+              "from": 1887,
+              "to": 1901
+            },
+            {
+              "t": "sadari...",
+              "from": 1901,
+              "to": 1929
+            },
+            {
+              "t": "ketika",
+              "from": 1929,
+              "to": 1948
+            },
+            {
+              "t": "waktunya",
+              "from": 1948,
+              "to": 1973
+            },
+            {
+              "t": "benar-benar",
+              "from": 1973,
+              "to": 2006
+            },
+            {
+              "t": "tiba.",
+              "from": 2006,
+              "to": 2019
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

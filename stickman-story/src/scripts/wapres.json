@@ -1,0 +1,60 @@
+{
+  "title": "Wapres",
+  "compositionId": "WapresStory",
+  "voice": "Kore",
+  "fade": 12,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "hook.mp3",
+      "captions": [
+        "Pernah kepikiran: bisa nggak sih wakil presiden mundur di tengah jalan?"
+      ]
+    },
+    {
+      "id": "konstitusi",
+      "type": "explain",
+      "audio": "konstitusi.mp3",
+      "look": "blue",
+      "board": ["PRESIDEN", "+", "WAPRES", "5 TAHUN"],
+      "accent": ["BERPASANGAN"],
+      "captions": [
+        "Di Indonesia, presiden dan wakil presiden dipilih berpasangan, untuk lima tahun.",
+        "Tapi UUD 1945 sebenarnya lebih banyak mengatur pemberhentian lewat MPR, bukan pengunduran diri sukarela."
+      ]
+    },
+    {
+      "id": "penyebab",
+      "type": "causes",
+      "audio": "penyebab.mp3",
+      "labels": ["VISI?", "KESEHATAN?", "POLITIK?"],
+      "captions": [
+        "Lalu, bagaimana bisa seorang wakil presiden lengser?",
+        "Bisa karena meninggal, diberhentikan lewat proses, atau... mengundurkan diri.",
+        "Nah, soal mengundurkan diri ini, hukumnya masih mengambang dan jadi perdebatan."
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "prokontra.mp3",
+      "pro": "LELUASA",
+      "kontra": "DPR KUAT",
+      "captions": [
+        "Kalau kursi wakil presiden kosong, presiden mengangkat pengganti dengan persetujuan DPR.",
+        "Pro-nya: presiden lebih leluasa. Kontra-nya: DPR pegang kendali persetujuan.",
+        "Dan bila presiden pun berhalangan, MPR yang menentukan arah negara."
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "ending.mp3",
+      "captions": [
+        "Jadi, siapa yang sebenarnya menjaga kursi itu?",
+        "Mungkin baru kita sadari... ketika waktunya benar-benar tiba."
+      ]
+    }
+  ]
+}
