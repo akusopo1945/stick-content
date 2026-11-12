@@ -1,0 +1,926 @@
+{
+  "title": "Kursi",
+  "compositionId": "KursiStory",
+  "fade": 12,
+  "total": 2145,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "kicker": "POLITIK • PERMUTASI KEKUASAAN",
+      "stamp": "MUNDUR",
+      "expr": "worried",
+      "captions": [
+        "Gibran mundur dari wakil presiden. Siapa yang sebenarnya diuntungkan?",
+        "Tiga skenario beredar: geng Solo, kubu Prabowo, atau konspirasi lain."
+      ],
+      "from": 0,
+      "len": 318,
+      "cues": [
+        {
+          "from": 0,
+          "to": 159,
+          "text": "Gibran mundur dari wakil presiden. Siapa yang sebenarnya diuntungkan?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Gibran",
+              "from": 0,
+              "to": 16
+            },
+            {
+              "t": "mundur",
+              "from": 16,
+              "to": 32
+            },
+            {
+              "t": "dari",
+              "from": 32,
+              "to": 44
+            },
+            {
+              "t": "wakil",
+              "from": 44,
+              "to": 58
+            },
+            {
+              "t": "presiden.",
+              "from": 58,
+              "to": 81
+            },
+            {
+              "t": "Siapa",
+              "from": 81,
+              "to": 94
+            },
+            {
+              "t": "yang",
+              "from": 94,
+              "to": 106
+            },
+            {
+              "t": "sebenarnya",
+              "from": 106,
+              "to": 131
+            },
+            {
+              "t": "diuntungkan?",
+              "from": 131,
+              "to": 161
+            }
+          ]
+        },
+        {
+          "from": 159,
+          "to": 317,
+          "text": "Tiga skenario beredar: geng Solo, kubu Prabowo, atau konspirasi lain.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Tiga",
+              "from": 159,
+              "to": 171
+            },
+            {
+              "t": "skenario",
+              "from": 171,
+              "to": 191
+            },
+            {
+              "t": "beredar:",
+              "from": 191,
+              "to": 212
+            },
+            {
+              "t": "geng",
+              "from": 212,
+              "to": 224
+            },
+            {
+              "t": "Solo,",
+              "from": 224,
+              "to": 237
+            },
+            {
+              "t": "kubu",
+              "from": 237,
+              "to": 249
+            },
+            {
+              "t": "Prabowo,",
+              "from": 249,
+              "to": 270
+            },
+            {
+              "t": "atau",
+              "from": 270,
+              "to": 281
+            },
+            {
+              "t": "konspirasi",
+              "from": 281,
+              "to": 306
+            },
+            {
+              "t": "lain.",
+              "from": 306,
+              "to": 317
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explain",
+      "type": "explain",
+      "audio": "2.mp3",
+      "kicker": "MEKANISME KONSTITUSI",
+      "note": "Jadi bukan rakyat yang memilih langsung, melainkan MPR dari dua calon yang diajukan presiden. Enam puluh hari menentukan arahnya.",
+      "captions": [
+        "Pertama, ini mekanismenya. Menurut konstitusi, presiden mengajukan dua calon ke MPR.",
+        "Lalu MPR menyelenggarakan sidang maksimal enam puluh hari untuk memilih wakil presiden.",
+        "Jadi, bukan pilihan langsung rakyat, tapi pilihan lewat forum tertinggi itu."
+      ],
+      "from": 318,
+      "len": 498,
+      "cues": [
+        {
+          "from": 318,
+          "to": 487,
+          "text": "Pertama, ini mekanismenya. Menurut konstitusi, presiden mengajukan dua calon ke MPR.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Pertama,",
+              "from": 318,
+              "to": 336
+            },
+            {
+              "t": "ini",
+              "from": 336,
+              "to": 344
+            },
+            {
+              "t": "mekanismenya.",
+              "from": 344,
+              "to": 372
+            },
+            {
+              "t": "Menurut",
+              "from": 372,
+              "to": 388
+            },
+            {
+              "t": "konstitusi,",
+              "from": 388,
+              "to": 413
+            },
+            {
+              "t": "presiden",
+              "from": 413,
+              "to": 431
+            },
+            {
+              "t": "mengajukan",
+              "from": 431,
+              "to": 453
+            },
+            {
+              "t": "dua",
+              "from": 453,
+              "to": 461
+            },
+            {
+              "t": "calon",
+              "from": 461,
+              "to": 473
+            },
+            {
+              "t": "ke",
+              "from": 473,
+              "to": 479
+            },
+            {
+              "t": "MPR.",
+              "from": 479,
+              "to": 489
+            }
+          ]
+        },
+        {
+          "from": 487,
+          "to": 663,
+          "text": "Lalu MPR menyelenggarakan sidang maksimal enam puluh hari untuk memilih wakil presiden.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Lalu",
+              "from": 487,
+              "to": 497
+            },
+            {
+              "t": "MPR",
+              "from": 497,
+              "to": 505
+            },
+            {
+              "t": "menyelenggarakan",
+              "from": 505,
+              "to": 540
+            },
+            {
+              "t": "sidang",
+              "from": 540,
+              "to": 554
+            },
+            {
+              "t": "maksimal",
+              "from": 554,
+              "to": 572
+            },
+            {
+              "t": "enam",
+              "from": 572,
+              "to": 582
+            },
+            {
+              "t": "puluh",
+              "from": 582,
+              "to": 594
+            },
+            {
+              "t": "hari",
+              "from": 594,
+              "to": 604
+            },
+            {
+              "t": "untuk",
+              "from": 604,
+              "to": 616
+            },
+            {
+              "t": "memilih",
+              "from": 616,
+              "to": 633
+            },
+            {
+              "t": "wakil",
+              "from": 633,
+              "to": 645
+            },
+            {
+              "t": "presiden.",
+              "from": 645,
+              "to": 665
+            }
+          ]
+        },
+        {
+          "from": 663,
+          "to": 815,
+          "text": "Jadi, bukan pilihan langsung rakyat, tapi pilihan lewat forum tertinggi itu.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Jadi,",
+              "from": 663,
+              "to": 675
+            },
+            {
+              "t": "bukan",
+              "from": 675,
+              "to": 687
+            },
+            {
+              "t": "pilihan",
+              "from": 687,
+              "to": 703
+            },
+            {
+              "t": "langsung",
+              "from": 703,
+              "to": 721
+            },
+            {
+              "t": "rakyat,",
+              "from": 721,
+              "to": 737
+            },
+            {
+              "t": "tapi",
+              "from": 737,
+              "to": 748
+            },
+            {
+              "t": "pilihan",
+              "from": 748,
+              "to": 764
+            },
+            {
+              "t": "lewat",
+              "from": 764,
+              "to": 776
+            },
+            {
+              "t": "forum",
+              "from": 776,
+              "to": 788
+            },
+            {
+              "t": "tertinggi",
+              "from": 788,
+              "to": 808
+            },
+            {
+              "t": "itu.",
+              "from": 808,
+              "to": 815
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skenario",
+      "type": "causes",
+      "audio": "3.mp3",
+      "kicker": "TIGA SKENARIO",
+      "captions": [
+        "Skenario A, gugur dari gencar Solo. Penggantinya tetap dari lingkaran Solo.",
+        "Skenario B, konsolidasi Prabowo. Dua calon dipilih dari partai pendukung koalisi.",
+        "Skenario C, konspirasi. Deal PDIP, jalur personal, atau alasan di balik itu semua."
+      ],
+      "from": 816,
+      "len": 589,
+      "cues": [
+        {
+          "from": 816,
+          "to": 1002,
+          "text": "Skenario A, gugur dari gencar Solo. Penggantinya tetap dari lingkaran Solo.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Skenario",
+              "from": 816,
+              "to": 838
+            },
+            {
+              "t": "A,",
+              "from": 838,
+              "to": 846
+            },
+            {
+              "t": "gugur",
+              "from": 846,
+              "to": 861
+            },
+            {
+              "t": "dari",
+              "from": 861,
+              "to": 873
+            },
+            {
+              "t": "gencar",
+              "from": 873,
+              "to": 890
+            },
+            {
+              "t": "Solo.",
+              "from": 890,
+              "to": 905
+            },
+            {
+              "t": "Penggantinya",
+              "from": 905,
+              "to": 938
+            },
+            {
+              "t": "tetap",
+              "from": 938,
+              "to": 952
+            },
+            {
+              "t": "dari",
+              "from": 952,
+              "to": 965
+            },
+            {
+              "t": "lingkaran",
+              "from": 965,
+              "to": 990
+            },
+            {
+              "t": "Solo.",
+              "from": 990,
+              "to": 1004
+            }
+          ]
+        },
+        {
+          "from": 1002,
+          "to": 1202,
+          "text": "Skenario B, konsolidasi Prabowo. Dua calon dipilih dari partai pendukung koalisi.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Skenario",
+              "from": 1002,
+              "to": 1024
+            },
+            {
+              "t": "B,",
+              "from": 1024,
+              "to": 1032
+            },
+            {
+              "t": "konsolidasi",
+              "from": 1032,
+              "to": 1061
+            },
+            {
+              "t": "Prabowo.",
+              "from": 1061,
+              "to": 1083
+            },
+            {
+              "t": "Dua",
+              "from": 1083,
+              "to": 1093
+            },
+            {
+              "t": "calon",
+              "from": 1093,
+              "to": 1108
+            },
+            {
+              "t": "dipilih",
+              "from": 1108,
+              "to": 1128
+            },
+            {
+              "t": "dari",
+              "from": 1128,
+              "to": 1140
+            },
+            {
+              "t": "partai",
+              "from": 1140,
+              "to": 1158
+            },
+            {
+              "t": "pendukung",
+              "from": 1158,
+              "to": 1182
+            },
+            {
+              "t": "koalisi.",
+              "from": 1182,
+              "to": 1204
+            }
+          ]
+        },
+        {
+          "from": 1202,
+          "to": 1404,
+          "text": "Skenario C, konspirasi. Deal PDIP, jalur personal, atau alasan di balik itu semua.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Skenario",
+              "from": 1202,
+              "to": 1224
+            },
+            {
+              "t": "C,",
+              "from": 1224,
+              "to": 1232
+            },
+            {
+              "t": "konspirasi.",
+              "from": 1232,
+              "to": 1261
+            },
+            {
+              "t": "Deal",
+              "from": 1261,
+              "to": 1274
+            },
+            {
+              "t": "PDIP,",
+              "from": 1274,
+              "to": 1289
+            },
+            {
+              "t": "jalur",
+              "from": 1289,
+              "to": 1304
+            },
+            {
+              "t": "personal,",
+              "from": 1304,
+              "to": 1328
+            },
+            {
+              "t": "atau",
+              "from": 1328,
+              "to": 1341
+            },
+            {
+              "t": "alasan",
+              "from": 1341,
+              "to": 1358
+            },
+            {
+              "t": "di",
+              "from": 1358,
+              "to": 1365
+            },
+            {
+              "t": "balik",
+              "from": 1365,
+              "to": 1380
+            },
+            {
+              "t": "itu",
+              "from": 1380,
+              "to": 1390
+            },
+            {
+              "t": "semua.",
+              "from": 1390,
+              "to": 1404
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "4.mp3",
+      "kicker": "DUA SISI",
+      "pro": "RUANG DEMOKRASI",
+      "proBody": [
+        "Jalur konstitusi terbuka lebar.",
+        "MPR pilih dari dua calon presiden."
+      ],
+      "kontra": "PRESIDEN STABIL",
+      "kontraBody": [
+        "Preseden yang baru saja dicoba.",
+        "Instabil politik yang belum selesai."
+      ],
+      "captions": [
+        "Yang pro bilang: ini membuka ruang demokrasi lewat jalur konstitusi.",
+        "Yang kontra bilang: ini preseden destabilisasi dan politik yang tidak selesai.",
+        "Dan dua-duanya sepakat: enam puluh hari menentukan siapa yang benar-benar pegang kursi."
+      ],
+      "from": 1405,
+      "len": 423,
+      "cues": [
+        {
+          "from": 1405,
+          "to": 1528,
+          "text": "Yang pro bilang: ini membuka ruang demokrasi lewat jalur konstitusi.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Yang",
+              "from": 1405,
+              "to": 1414
+            },
+            {
+              "t": "pro",
+              "from": 1414,
+              "to": 1421
+            },
+            {
+              "t": "bilang:",
+              "from": 1421,
+              "to": 1436
+            },
+            {
+              "t": "ini",
+              "from": 1436,
+              "to": 1443
+            },
+            {
+              "t": "membuka",
+              "from": 1443,
+              "to": 1457
+            },
+            {
+              "t": "ruang",
+              "from": 1457,
+              "to": 1468
+            },
+            {
+              "t": "demokrasi",
+              "from": 1468,
+              "to": 1486
+            },
+            {
+              "t": "lewat",
+              "from": 1486,
+              "to": 1497
+            },
+            {
+              "t": "jalur",
+              "from": 1497,
+              "to": 1508
+            },
+            {
+              "t": "konstitusi.",
+              "from": 1508,
+              "to": 1530
+            }
+          ]
+        },
+        {
+          "from": 1528,
+          "to": 1670,
+          "text": "Yang kontra bilang: ini preseden destabilisasi dan politik yang tidak selesai.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Yang",
+              "from": 1528,
+              "to": 1537
+            },
+            {
+              "t": "kontra",
+              "from": 1537,
+              "to": 1550
+            },
+            {
+              "t": "bilang:",
+              "from": 1550,
+              "to": 1564
+            },
+            {
+              "t": "ini",
+              "from": 1564,
+              "to": 1572
+            },
+            {
+              "t": "preseden",
+              "from": 1572,
+              "to": 1588
+            },
+            {
+              "t": "destabilisasi",
+              "from": 1588,
+              "to": 1614
+            },
+            {
+              "t": "dan",
+              "from": 1614,
+              "to": 1621
+            },
+            {
+              "t": "politik",
+              "from": 1621,
+              "to": 1635
+            },
+            {
+              "t": "yang",
+              "from": 1635,
+              "to": 1645
+            },
+            {
+              "t": "tidak",
+              "from": 1645,
+              "to": 1655
+            },
+            {
+              "t": "selesai.",
+              "from": 1655,
+              "to": 1672
+            }
+          ]
+        },
+        {
+          "from": 1670,
+          "to": 1827,
+          "text": "Dan dua-duanya sepakat: enam puluh hari menentukan siapa yang benar-benar pegang kursi.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Dan",
+              "from": 1670,
+              "to": 1677
+            },
+            {
+              "t": "dua-duanya",
+              "from": 1677,
+              "to": 1697
+            },
+            {
+              "t": "sepakat:",
+              "from": 1697,
+              "to": 1714
+            },
+            {
+              "t": "enam",
+              "from": 1714,
+              "to": 1723
+            },
+            {
+              "t": "puluh",
+              "from": 1723,
+              "to": 1734
+            },
+            {
+              "t": "hari",
+              "from": 1734,
+              "to": 1743
+            },
+            {
+              "t": "menentukan",
+              "from": 1743,
+              "to": 1763
+            },
+            {
+              "t": "siapa",
+              "from": 1763,
+              "to": 1774
+            },
+            {
+              "t": "yang",
+              "from": 1774,
+              "to": 1783
+            },
+            {
+              "t": "benar-benar",
+              "from": 1783,
+              "to": 1804
+            },
+            {
+              "t": "pegang",
+              "from": 1804,
+              "to": 1817
+            },
+            {
+              "t": "kursi.",
+              "from": 1817,
+              "to": 1827
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "5.mp3",
+      "kicker": "PENUTUP",
+      "stamp": "TULIS DI KOMEN",
+      "quote": [
+        "KALAU KURSI ITU *KOSONG*,",
+        "SEBENARNYA *SIAPA* YANG PALING",
+        "DIUNTUNGKAN?"
+      ],
+      "deck": "Dan kamu pilih yang seperti apa: pemimpin kuat, atau aman-aman saja? Tulis di komen.",
+      "expr": "sad",
+      "captions": [
+        "Kalau kursi itu kosong, sebenarnya siapa yang paling diuntungkan?",
+        "Dan kamu pilih yang seperti apa: pemimpin kuat, atau aman-aman saja? Tulis di komen."
+      ],
+      "from": 1828,
+      "len": 305,
+      "cues": [
+        {
+          "from": 1828,
+          "to": 1961,
+          "text": "Kalau kursi itu kosong, sebenarnya siapa yang paling diuntungkan?",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Kalau",
+              "from": 1828,
+              "to": 1840
+            },
+            {
+              "t": "kursi",
+              "from": 1840,
+              "to": 1853
+            },
+            {
+              "t": "itu",
+              "from": 1853,
+              "to": 1861
+            },
+            {
+              "t": "kosong,",
+              "from": 1861,
+              "to": 1877
+            },
+            {
+              "t": "sebenarnya",
+              "from": 1877,
+              "to": 1900
+            },
+            {
+              "t": "siapa",
+              "from": 1900,
+              "to": 1912
+            },
+            {
+              "t": "yang",
+              "from": 1912,
+              "to": 1922
+            },
+            {
+              "t": "paling",
+              "from": 1922,
+              "to": 1936
+            },
+            {
+              "t": "diuntungkan?",
+              "from": 1936,
+              "to": 1963
+            }
+          ]
+        },
+        {
+          "from": 1961,
+          "to": 2132,
+          "text": "Dan kamu pilih yang seperti apa: pemimpin kuat, atau aman-aman saja? Tulis di komen.",
+          "pos": "lower",
+          "words": [
+            {
+              "t": "Dan",
+              "from": 1961,
+              "to": 1969
+            },
+            {
+              "t": "kamu",
+              "from": 1969,
+              "to": 1979
+            },
+            {
+              "t": "pilih",
+              "from": 1979,
+              "to": 1992
+            },
+            {
+              "t": "yang",
+              "from": 1992,
+              "to": 2002
+            },
+            {
+              "t": "seperti",
+              "from": 2002,
+              "to": 2018
+            },
+            {
+              "t": "apa:",
+              "from": 2018,
+              "to": 2029
+            },
+            {
+              "t": "pemimpin",
+              "from": 2029,
+              "to": 2047
+            },
+            {
+              "t": "kuat,",
+              "from": 2047,
+              "to": 2059
+            },
+            {
+              "t": "atau",
+              "from": 2059,
+              "to": 2070
+            },
+            {
+              "t": "aman-aman",
+              "from": 2070,
+              "to": 2090
+            },
+            {
+              "t": "saja?",
+              "from": 2090,
+              "to": 2102
+            },
+            {
+              "t": "Tulis",
+              "from": 2102,
+              "to": 2115
+            },
+            {
+              "t": "di",
+              "from": 2115,
+              "to": 2121
+            },
+            {
+              "t": "komen.",
+              "from": 2121,
+              "to": 2132
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

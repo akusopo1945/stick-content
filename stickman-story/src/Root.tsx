@@ -1,3 +1,4 @@
+import {KursiStory, KursiStory_FRAMES} from "./scenes/KursiStory";
 import {KoranStory, KoranStory_FRAMES} from "./scenes/KoranStory";
 import {PemakzulanStory, PemakzulanStory_FRAMES} from "./scenes/PemakzulanStory";
 import {WapresStory, WapresStory_FRAMES} from "./scenes/WapresStory";
@@ -58,6 +59,15 @@ export const Root: React.FC = () => (
       width={W}
       height={H}
       defaultProps={{narration: "audio/Koran_narration.mp3"}}
+    />
+    <Composition
+      id="KursiStory"
+      component={KursiStory}
+      durationInFrames={KursiStory_FRAMES}
+      fps={FPS}
+      width={W}
+      height={H}
+      defaultProps={{narration: "audio/Kursi_narration.mp3"}}
     />
   </>
 );

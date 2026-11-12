@@ -58,6 +58,9 @@ export type SceneSpec = {
   kontraBody?: string[];
   quote?: string[];
   stamp?: string;
+  // --- dipakai KoranFlipEngine (flip page + kinetik) ---
+  steps?: {title: string; body: string[]}[];
+  colsFlip?: {tag: string; title: string; body: string}[];
 };
 
 export type StoryScript = {

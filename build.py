@@ -85,8 +85,10 @@ def build(script_path, in_dir):
     glue(seg_paths, final)
     print(f"Glued audio -> {final}  ({round(MP3(final).info.length,2)}s, {total}f)")
 
-    built = {"title": title, "compositionId": cid, "voice": script.get("voice"),
+    built = {"title": title, "compositionId": cid,
              "fade": fade, "total": total, "scenes": scenes_out}
+    if script.get("voice"):
+        built["voice"] = script["voice"]   # hanya sertakan jika ada (hindari null di TS)
     built_path = re.sub(r"\.json$", ".built.json", script_path)
     json.dump(built, open(built_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     print(f"Wrote timing -> {built_path}")

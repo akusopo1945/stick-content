@@ -16,6 +16,8 @@ sintesis suara narasi, hingga render video siap unggah.
   - `StoryEngine` — sinematik gelap ala dokumenter mini (kamera gerak, depth of field)
   - `ComicEngine` — komik doodle, balon teks, papan tulis, panel
   - `KoranEngine` — editorial koran cetak: newsprint, halftone, headline kapital, op-ed
+  - `KoranFlipEngine` — koran dengan animasi **page-flip**: halaman dibuka,
+    headline kinetik per-kata, cap slam, ticker breaking-news
 - **Narasi otomatis** — tiap scene pakai 1 file audio; digabung + di-sync caption karaoke
 - **Caption bahasa Indonesia** dengan highlight kata-per-kata (gaya subtitle berita)
 - **Data-driven** — angka/fakta dari riset berita beneran, bukan karangan
@@ -27,6 +29,7 @@ sintesis suara narasi, hingga render video siap unggah.
 | `out/wapres.mp4`* | Kursi wakil presiden kosong | StoryEngine (sinematik) | ~60s |
 | `out/pemakzulan.mp4`* | Proses pemakzulan & pengganti | ComicEngine (komik) | ~65s |
 | `out/koran.mp4`* | Ekonomi pangan: beras mahal vs petani miskin | KoranEngine (editorial) | ~78s |
+| `out/kursi.mp4`* | Kursi wapres kosong: siapa diuntungkan? | KoranFlipEngine (page-flip) | ~72s |
 
 \* File MP4 hasil render **tidak di-commit** (ada di `.gitignore`/`out/`).
 Naskah + kode sumber + audio narasi ada di repo; render ulang kapan saja.
@@ -49,11 +52,13 @@ stick-content/
 ├── build.py                 # Pipeline: JSON -> glue audio -> generate wrapper -> register Root
 ├── gen_koran.py             # Generator narasi TTS (edge-tts) untuk tema koran
 ├── gen_gemini.py            # Generator narasi (Gemini/AI Studio) untuk tema lain
+├── gen_kursi.py             # Generator narasi TTS (KursiStory, gaya KoranFlip)
 ├── gen_wapres.py / gen_narration.py
 ├── FLOW_PRODUKSI_ID.md      # SOP lengkap 7 tahap produksi (baca ini!)
 ├── gemini_in/               # 🎙️ Audio narasi per scene (simpul utama)
 │   ├── koran/               #   1.mp3 ... 5.mp3   (5 scene)
 │   ├── pemakzulan/          #   1.mp3 ... 5.mp3
+│   ├── kursi/               #   1.mp3 ... 5.mp3   (KursiStory)
 │   └── *.mp3 / *.wav        # audio lama (wapres)
 └── stickman-story/          # Remotion project
     ├── src/
@@ -142,6 +147,7 @@ Setiap tema pakai engine berbeda supaya konten nggak monoton:
 | `StoryEngine` | Dokumenter sinematik, kamera gerak | Isu politik/serius |
 | `ComicEngine` | Komik doodle, balon & papan | Penjelasan konsep/step |
 | `KoranEngine` | Editorial koran, halftone, op-ed | Ekonomi/data/berita |
+| `KoranFlipEngine` | Page-flip, kinetik per-kata, ticker | Politik/berita panas |
 
 Mau gaya ke-4? Tinggal salin satu engine, ganti palet + tata letak, daftarkan di `Root.tsx`
 (otomatis dilakukan `build.py`).

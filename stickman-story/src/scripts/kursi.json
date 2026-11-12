@@ -1,0 +1,72 @@
+{
+  "title": "Kursi",
+  "compositionId": "KursiStory",
+  "engine": "KoranFlipEngine",
+  "fade": 12,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "kicker": "POLITIK • PERMUTASI KEKUASAAN",
+      "stamp": "MUNDUR",
+      "expr": "worried",
+      "captions": [
+        "Gibran mundur dari wakil presiden. Siapa yang sebenarnya diuntungkan?",
+        "Tiga skenario beredar: geng Solo, kubu Prabowo, atau konspirasi lain."
+      ]
+    },
+    {
+      "id": "explain",
+      "type": "explain",
+      "audio": "2.mp3",
+      "kicker": "MEKANISME KONSTITUSI",
+      "note": "Jadi bukan rakyat yang memilih langsung, melainkan MPR dari dua calon yang diajukan presiden. Enam puluh hari menentukan arahnya.",
+      "captions": [
+        "Pertama, ini mekanismenya. Menurut konstitusi, presiden mengajukan dua calon ke MPR.",
+        "Lalu MPR menyelenggarakan sidang maksimal enam puluh hari untuk memilih wakil presiden.",
+        "Jadi, bukan pilihan langsung rakyat, tapi pilihan lewat forum tertinggi itu."
+      ]
+    },
+    {
+      "id": "skenario",
+      "type": "causes",
+      "audio": "3.mp3",
+      "kicker": "TIGA SKENARIO",
+      "captions": [
+        "Skenario A, gugur dari gencar Solo. Penggantinya tetap dari lingkaran Solo.",
+        "Skenario B, konsolidasi Prabowo. Dua calon dipilih dari partai pendukung koalisi.",
+        "Skenario C, konspirasi. Deal PDIP, jalur personal, atau alasan di balik itu semua."
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "4.mp3",
+      "kicker": "DUA SISI",
+      "pro": "RUANG DEMOKRASI",
+      "proBody": ["Jalur konstitusi terbuka lebar.", "MPR pilih dari dua calon presiden."],
+      "kontra": "PRESIDEN STABIL",
+      "kontraBody": ["Preseden yang baru saja dicoba.", "Instabil politik yang belum selesai."],
+      "captions": [
+        "Yang pro bilang: ini membuka ruang demokrasi lewat jalur konstitusi.",
+        "Yang kontra bilang: ini preseden destabilisasi dan politik yang tidak selesai.",
+        "Dan dua-duanya sepakat: enam puluh hari menentukan siapa yang benar-benar pegang kursi."
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "5.mp3",
+      "kicker": "PENUTUP",
+      "stamp": "TULIS DI KOMEN",
+      "quote": ["KALAU KURSI ITU *KOSONG*,", "SEBENARNYA *SIAPA* YANG PALING", "DIUNTUNGKAN?"],
+      "deck": "Dan kamu pilih yang seperti apa: pemimpin kuat, atau aman-aman saja? Tulis di komen.",
+      "expr": "sad",
+      "captions": [
+        "Kalau kursi itu kosong, sebenarnya siapa yang paling diuntungkan?",
+        "Dan kamu pilih yang seperti apa: pemimpin kuat, atau aman-aman saja? Tulis di komen."
+      ]
+    }
+  ]
+}
