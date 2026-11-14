@@ -1,0 +1,157 @@
+{
+  "title": "Hidrogen",
+  "compositionId": "HidrogenStory",
+  "engine": "CinemaEngine",
+  "fade": 16,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "kicker": "12 NOVEMBER 2026 • 23.47",
+      "headline": ["OTAK", "DIGANTI"],
+      "deck": "Gudang kurir, sebelum kota bangun",
+      "note": "Google Search naik model untuk semua pengguna. Tanpa instalasi.",
+      "stats": [
+        {"value": "12 NOV", "label": "RILIS GLOBAL"},
+        {"value": "0 KLIK", "label": "YANG KAMU LAKUKAN"}
+      ],
+      "expr": "focused",
+      "captions": [
+        "Duabelas November malam. Kamu nggak klik apa-apa.",
+        "Di balik pencarianmu, Google ganti modelnya: Gemini 4 Hydrogen.",
+        "Bayangkan itu gudang kurir. Semalam, semua badge lama dicopot."
+      ]
+    },
+    {
+      "id": "roster",
+      "type": "roster",
+      "audio": "2.mp3",
+      "kicker": "ADEGAN 02 • TIGA PERAN",
+      "headline": ["TIGA", "KURIR"],
+      "deck": "Dua mikir panjang, satu mengejar cepat",
+      "note": "Carbon / Argon = frontier reasoning. Hydrogen = eksekusi cepat.",
+      "stats": [
+        {"value": "2", "label": "PERENCANA"},
+        {"value": "1", "label": "KURIR SEPEDA"},
+        {"value": "1", "label": "TRUK LAMA"}
+      ],
+      "expr": "determined",
+      "captions": [
+        "Karbon dan Argon: dua perencana di menara, mikir panjang buat rute paling sulit.",
+        "Hidrogen si kurir sepeda. Satu tugas, sampai lebih dulu.",
+        "Flash masih bawa truk."
+      ]
+    },
+    {
+      "id": "race",
+      "type": "race",
+      "audio": "3.mp3",
+      "kicker": "ADEGAN 03 • JALAN DATAR",
+      "headline": ["LEBIH", "MURAH"],
+      "deck": "Paradoks ongkos: mahal per token, murah per tugas",
+      "note": "Lebih mahal per token, lebih murah per pekerjaan selesai.",
+      "stats": [
+        {"value": "2,5x", "label": "LEBIH CEPAT"},
+        {"value": "$7,77", "label": "FLASH / TUGAS"},
+        {"value": "$1,87", "label": "HIDROGEN / TUGAS"}
+      ],
+      "expr": "happy",
+      "captions": [
+        "Di jalan datar, sepeda dua setengah kali lebih cepat.",
+        "Truk murah per kilometer, tapi muter-muter, boros token.",
+        "Ongkos per pengiriman justru empat kali lebih mahal. Hitungan Artificial Analysis.",
+        "Lebih mahal per token, lebih murah per pekerjaan selesai."
+      ]
+    },
+    {
+      "id": "gears",
+      "type": "gears",
+      "audio": "4.mp3",
+      "kicker": "ADEGAN 04 • EMPAT GIGI",
+      "headline": ["EMPAT", "TUAS"],
+      "deck": "Makin lama boleh ragu, makin mahal",
+      "note": "low / medium / high / xhigh — biaya per tugas ikut naik.",
+      "stats": [
+        {"value": "$0,29", "label": "LOW"},
+        {"value": "$0,80", "label": "MEDIUM"},
+        {"value": "$1,87", "label": "HIGH"},
+        {"value": "$3,16", "label": "XHIGH"}
+      ],
+      "expr": "calm",
+      "captions": [
+        "Sepeda punya empat gigi: rendah, sedang, tinggi, sangat tinggi.",
+        "Makin tinggi, makin lama boleh ragu, makin mahal.",
+        "Kamu yang pilih."
+      ]
+    },
+    {
+      "id": "gates",
+      "type": "gates",
+      "audio": "5.mp3",
+      "kicker": "ADEGAN 05 • SEPULUH GERBANG",
+      "headline": ["PRO", "KONTRA"],
+      "deck": "Tujuh gerbang, tiga tanjakan",
+      "note": "Angka lawan sebagian self-reported. Bukan uji head-to-head independen.",
+      "pro": "PRO",
+      "kontra": "KONTRA",
+      "proBody": ["Cepat", "Hemat per tugas", "Makin jarang salah alamat"],
+      "kontraBody": ["3 uji dimenangi Claude", "Ongkos per km lebih mahal", "1 poin di bawah AA Index"],
+      "stats": [
+        {"value": "7 / 10", "label": "UJI DIMENANGI"},
+        {"value": "54", "label": "AA INDEX XHIGH"},
+        {"value": "8%", "label": "HALUSINASI"}
+      ],
+      "expr": "worried",
+      "captions": [
+        "Sepuluh gerbang uji lawan Claude dan GPT. Tujuh dilewati sepeda duluan.",
+        "Pro: cepat, hemat, makin jarang salah alamat.",
+        "Kontra: tiga tanjakan masih dimenangi Claude. Ongkos per kilometer lebih mahal.",
+        "Satu poin di bawah di indeks independen."
+      ]
+    },
+    {
+      "id": "sortir",
+      "type": "sortir",
+      "audio": "6.mp3",
+      "kicker": "ADEGAN 06 • POS SORTIR",
+      "headline": ["KAMU", "SALAH ARAH"],
+      "deck": "Mesin yang berani menunjukkan dua kesalahan",
+      "note": "Andrew Carr, Cartwheel: 10 hari mentok, 2 kesalahan ditemukan.",
+      "stats": [
+        {"value": "10 HARI", "label": "TIM MENTOK"},
+        {"value": "2", "label": "KESALAHAN RUTE"}
+      ],
+      "expr": "surprised",
+      "captions": [
+        "Di pos sortir, ada catatan yang bikin aku berhenti.",
+        "Seorang ilmuwan mentok sepuluh hari.",
+        "Kurir ini menemukan dua kesalahan di rute mereka, lalu usulkan jalan lain.",
+        "Bayangkan. Mesin yang bilang: kamu salah arah."
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "7.mp3",
+      "kicker": "05.12 • PAGI",
+      "headline": ["KOTA", "BIASA SAJA"],
+      "deck": "Paket sampai lebih cepat, hampir nggak ada yang sadar",
+      "note": "Model di balik Search berganti tanpa pemberitahuan.",
+      "quote": ["KALAU SATU POIN", "BISA DIKALAHKAN HARGA,", "KITA MILIH", "APA?"],
+      "stamp": "TULIS PENDAPATMU DI KOMENTAR",
+      "stats": [
+        {"value": "05.12", "label": "PAGI"},
+        {"value": "1 MALAM", "label": "TANPA PEMBERITAHUAN"}
+      ],
+      "expr": "calm",
+      "captions": [
+        "Pagi, kota seperti biasa. Paket sampai lebih cepat.",
+        "Hampir nggak ada yang sadar kurirnya diganti semalam.",
+        "Jadi kalau otak di balik layar bisa diganti tanpa pemberitahuan, kita sebenarnya milih apa?",
+        "Menurutmu: paling cepat, atau paling tepat?",
+        "Tulis pendapatmu di komentar."
+      ]
+    }
+  ]
+}

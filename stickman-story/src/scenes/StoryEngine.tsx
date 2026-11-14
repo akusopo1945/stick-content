@@ -61,6 +61,11 @@ export type SceneSpec = {
   // --- dipakai KoranFlipEngine (flip page + kinetik) ---
   steps?: {title: string; body: string[]}[];
   colsFlip?: {tag: string; title: string; body: string}[];
+  // --- dipakai ArsipEngine (dokumen arsip + timeline) ---
+  eras?: {year: string; label?: string; side?: 1 | -1; color?: string}[];
+  fig?: string;   // label foto arsip
+  rows?: {title: string; body: string}[];        // list berkas (arch)
+  clauses?: {no: string; text: string}[];        // pasal/klausul (dokumen)
 };
 
 export type StoryScript = {

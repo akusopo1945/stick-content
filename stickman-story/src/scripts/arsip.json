@@ -1,0 +1,148 @@
+{
+  "title": "Arsip",
+  "compositionId": "ArsipStory",
+  "engine": "ArsipEngine",
+  "fade": 16,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "hook",
+      "audio": "1.mp3",
+      "kicker": "1956 \u2014 1973",
+      "deck": "berkas: kekosongan jabatan wakil presiden",
+      "note": "Kursi itu pernah *kosong* hampir tujuh belas tahun. Dan tidak ada yang panik.",
+      "stamp": "KOSONG",
+      "expr": "calm",
+      "captions": [
+        "Indonesia pernah hampir tujuh belas tahun tanpa wakil presiden.",
+        "Dan negara ini tetap jalan. Sekarang kita panik dalam hitungan hari.",
+        "Ini berkasnya."
+      ]
+    },
+    {
+      "id": "timeline",
+      "type": "timeline",
+      "audio": "2.mp3",
+      "kicker": "BERKAS 01 \u2014 PENGUNDURAN PERTAMA",
+      "deck": "berkas 01 \u2014 pengunduran diri",
+      "headline": ["HATTA LETAKKAN JABATAN"],
+      "note": "Hatta mundur bukan karena kursi, tapi karena arah: dia menolak demokrasi terpimpin Soekarno. Suratnya berlaku *1 Desember 1956*.",
+      "stats": [
+        {"value": "1956", "label": "wakil presiden pertama mundur"},
+        {"value": "17 TAHUN", "label": "kursi dibiarkan kosong"}
+      ],
+      "eras": [
+        {"year": "1956", "label": "Hatta mundur", "side": -1, "color": "#9A2B1F"},
+        {"year": "1966", "label": "Soekarno lengser", "side": 1},
+        {"year": "1973", "label": "kursi terisi", "side": -1, "color": "#1F5F5B"}
+      ],
+      "pro": "Kursi itu dibiarkan kosong bertahun-tahun. Bukan karena tidak ada orang, tapi karena tidak ada yang butuh.",
+      "stamp": "KOSONG 1956",
+      "captions": [
+        "Semua mulai tahun 1956. Mohammad Hatta mundur dari wakil presiden.",
+        "Bukan karena kursinya, tapi karena arah negara. Dia menolak demokrasi terpimpin Soekarno.",
+        "Setelah itu, kursi wakil presiden dibiarkan kosong. Bertahun-tahun.",
+        "Terisi lagi baru tahun 1973, saat Sultan Hamengkubuwono sembilan dilantik."
+      ]
+    },
+    {
+      "id": "arsip",
+      "type": "arch",
+      "audio": "3.mp3",
+      "kicker": "BERKAS 02 \u2014 ERA REFORMASI",
+      "deck": "berkas 02 \u2014 era reformasi",
+      "headline": ["KURSI ITU", "KEMBALI", "KOSONG"],
+      "rows": [
+        {"title": "1998", "body": "Soeharto lengser. Habibie naik jadi presiden, kursi wapres *kosong tujuh belas bulan*."},
+        {"title": "2001", "body": "Gus Dur diberhentikan MPR. Megawati naik, kursi kosong *tiga hari*."},
+        {"title": "2026", "body": "Gibran mundur. Kursi kosong lagi, dan kali ini *ada aturannya*."}
+      ],
+      "stamp": "SELALU TERULANG",
+      "captions": [
+        "Pola yang sama terulang di era reformasi.",
+        "Sembilan puluh delapan, Soeharto mundur. Habibie jadi presiden, kursi wapres kosong tujuh belas bulan.",
+        "Dua ribu satu, Gus Dur diberhentikan. Megawati naik, kursi kosong cuma tiga hari.",
+        "Sekarang, dua ribu dua puluh enam, kursi itu kosong lagi."
+      ]
+    },
+    {
+      "id": "dokumen",
+      "type": "dokumen",
+      "audio": "4.mp3",
+      "kicker": "BERKAS 03 \u2014 SALINAN UUD 1945",
+      "deck": "berkas 03 \u2014 salinan UUD 1945",
+      "headline": ["DULU TIDAK ADA", "ATURANNYA"],
+      "clauses": [
+        {"no": "SEBELUM 2001", "text": "UUD 1945 tidak mengatur sama sekali soal pengisian kursi wapres yang kosong."},
+        {"no": "PASAL 8 AYAT 2", "text": "Presiden ajukan dua calon, MPR pilih wakil presiden dalam enam puluh hari."},
+        {"no": "AMANDEMEN 2001", "text": "Aturan ini lahir dari Perubahan Ketiga UUD 1945, setelah reformasi."}
+      ],
+      "note": "Artinya: dulu kekosongan bisa *bertahun-tahun* karena tidak ada mekanismenya. Sekarang wajib selesai dalam *enam puluh hari*.",
+      "captions": [
+        "Kuncinya ada di sini. Sebelum dua ribu satu, UUD kita tidak mengatur pengisian kursi wapres.",
+        "Makanya dulu bisa kosong bertahun-tahun. Tidak ada aturan yang dilanggar.",
+        "Setelah amandemen, baru ada Pasal delapan ayat dua. Presiden ajukan dua calon, MPR pilih dalam enam puluh hari.",
+        "Jadi kekosongan sekarang punya tenggat. Itu perubahan besar."
+      ]
+    },
+    {
+      "id": "prokontra",
+      "type": "prokontra",
+      "audio": "5.mp3",
+      "kicker": "BERKAS 04 \u2014 DUA PENDAPAT",
+      "deck": "berkas 04 \u2014 dua pendapat",
+      "headline": ["PERLU", "WAPRES?"],
+      "pro": "TETAP PERLU",
+      "proBody": [
+        "Suksesi negara butuh lapis kedua.",
+        "Kalau presiden berhalangan, harus ada yang siap."
+      ],
+      "kontra": "CUMA SIMBOL",
+      "kontraBody": [
+        "Tanpa tugas teknis yang jelas.",
+        "Ganti tandem selalu guncang politik."
+      ],
+      "captions": [
+        "Yang pro bilang: wapres itu lapis kedua suksesi. Kalau presiden berhalangan, harus ada yang siap.",
+        "Yang kontra bilang: wapres cuma simbol. Tidak ada tugas teknis jelas, dan ganti tandem selalu guncang politik.",
+        "Dan dua-duanya sepakat: yang salah bukan kursinya, tapi ketidakjelasan aturannya."
+      ]
+    },
+    {
+      "id": "dampak",
+      "type": "dampak",
+      "audio": "6.mp3",
+      "kicker": "BERKAS 05 \u2014 DAMPAKNYA",
+      "deck": "berkas 05 \u2014 dampaknya",
+      "headline": ["NEGARA", "TETAP JALAN"],
+      "note": "Yang berhenti bukan roda pemerintahan, tapi *lapis pengaman*: kalau presiden jatuh, siapa yang naik?",
+      "stats": [
+        {"value": "17 TH", "label": "KOSONG 1956\u20141973"},
+        {"value": "60 HARI", "label": "BATAS SEKARANG"}
+      ],
+      "pro": "Kalau presiden berhenti di tengah jalan dan kursi kosong, konstitusi harus punya jalan keluar yang jelas.",
+      "expr": "calm",
+      "captions": [
+        "Yang berhenti selama kursi kosong bukan roda pemerintahan.",
+        "Yang berhenti adalah lapis pengaman. Kalau presiden jatuh, siapa yang naik?",
+        "Itu sebabnya batas enam puluh hari penting. Bukan soal cepat-cepatan, tapi soal kepastian."
+      ]
+    },
+    {
+      "id": "ending",
+      "type": "ending",
+      "audio": "7.mp3",
+      "kicker": "LEMBAR PENUTUP",
+      "deck": "lembar penutup \u2014 silakan simpulkan sendiri",
+      "quote": ["KALAU 17 TAHUN", "BISA TANPA WAPRES,", "*KENAPA SEKARANG*", "PANIK?"],
+      "note": "Atau pertanyaannya lain: kita butuh wapres, atau kita cuma butuh aturan yang jelas?",
+      "stamp": "TULIS DI KOMEN",
+      "expr": "sad",
+      "captions": [
+        "Jadi kalau hampir tujuh belas tahun bisa tanpa wakil presiden, kenapa sekarang kita panik?",
+        "Menurutmu: kita butuh wapres, atau kita cuma butuh aturan yang jelas?",
+        "Tulis pendapatmu di komentar."
+      ]
+    }
+  ]
+}

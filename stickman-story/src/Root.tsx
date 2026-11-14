@@ -1,3 +1,5 @@
+import {HidrogenStory, HidrogenStory_FRAMES} from "./scenes/HidrogenStory";
+import {ArsipStory, ArsipStory_FRAMES} from "./scenes/ArsipStory";
 import {KursiStory, KursiStory_FRAMES} from "./scenes/KursiStory";
 import {KoranStory, KoranStory_FRAMES} from "./scenes/KoranStory";
 import {PemakzulanStory, PemakzulanStory_FRAMES} from "./scenes/PemakzulanStory";
@@ -68,6 +70,24 @@ export const Root: React.FC = () => (
       width={W}
       height={H}
       defaultProps={{narration: "audio/Kursi_narration.mp3"}}
+    />
+    <Composition
+      id="ArsipStory"
+      component={ArsipStory}
+      durationInFrames={ArsipStory_FRAMES}
+      fps={FPS}
+      width={W}
+      height={H}
+      defaultProps={{narration: "audio/Arsip_narration.mp3"}}
+    />
+    <Composition
+      id="HidrogenStory"
+      component={HidrogenStory}
+      durationInFrames={HidrogenStory_FRAMES}
+      fps={FPS}
+      width={W}
+      height={H}
+      defaultProps={{narration: "audio/Hidrogen_narration.mp3"}}
     />
   </>
 );

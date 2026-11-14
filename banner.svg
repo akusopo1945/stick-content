@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="STICKFORGE banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A1422"/>
+      <stop offset="1" stop-color="#152941"/>
+    </linearGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8EEF4"/>
+      <stop offset="1" stop-color="#C6D5E3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- city silhouette -->
+  <g fill="#10233A" opacity="0.95">
+    <rect x="40"  y="330" width="80"  height="70"/>
+    <rect x="130" y="300" width="60"  height="100"/>
+    <rect x="200" y="345" width="90"  height="55"/>
+    <rect x="300" y="320" width="50"  height="80"/>
+    <rect x="360" y="350" width="70"  height="50"/>
+    <rect x="440" y="315" width="60"  height="85"/>
+    <rect x="510" y="340" width="80"  height="60"/>
+  </g>
+  <g fill="#F2B45A" opacity="0.22">
+    <rect x="56"  y="346" width="9" height="9"/>
+    <rect x="74"  y="346" width="9" height="9"/>
+    <rect x="56"  y="372" width="9" height="9"/>
+    <rect x="146" y="318" width="9" height="9"/>
+    <rect x="164" y="318" width="9" height="9"/>
+    <rect x="146" y="346" width="9" height="9"/>
+    <rect x="216" y="362" width="9" height="9"/>
+    <rect x="316" y="338" width="9" height="9"/>
+    <rect x="316" y="360" width="9" height="9"/>
+    <rect x="456" y="332" width="9" height="9"/>
+    <rect x="474" y="332" width="9" height="9"/>
+    <rect x="526" y="358" width="9" height="9"/>
+  </g>
+
+  <!-- stage -->
+  <rect x="770" y="250" width="370" height="150" rx="14" fill="url(#stage)"/>
+  <ellipse cx="955" cy="388" rx="78" ry="11" fill="#000000" opacity="0.16"/>
+
+  <!-- stickman -->
+  <g stroke="#101C28" stroke-width="7" fill="none" stroke-linecap="round">
+    <circle cx="955" cy="150" r="30" fill="#E8EEF4" stroke-width="6"/>
+    <line x1="955" y1="180" x2="955" y2="300"/>
+    <line x1="955" y1="210" x2="905" y2="262"/>
+    <line x1="955" y1="210" x2="1012" y2="250"/>
+    <line x1="955" y1="300" x2="920" y2="382"/>
+    <line x1="955" y1="300" x2="992" y2="382"/>
+  </g>
+
+  <!-- phone with tiny scene -->
+  <rect x="1016" y="196" width="46" height="80" rx="8" fill="#101C28"/>
+  <rect x="1022" y="204" width="34" height="64" rx="4" fill="#E8EEF4"/>
+  <g stroke="#101C28" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="1039" cy="222" r="6" fill="#E8EEF4"/>
+    <line x1="1039" y1="228" x2="1039" y2="252"/>
+    <line x1="1039" y1="235" x2="1028" y2="246"/>
+    <line x1="1039" y1="235" x2="1050" y2="246"/>
+    <line x1="1039" y1="252" x2="1032" y2="264"/>
+    <line x1="1039" y1="252" x2="1046" y2="264"/>
+  </g>
+
+  <!-- title -->
+  <text x="58" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="#F2B45A" letter-spacing="2">STICKFORGE</text>
+  <text x="60" y="164" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#E8EEF4">Studio video penjelas stikman</text>
+  <text x="60" y="200" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#9FB3C8">Vertikal 1080&#215;1920 &#183; narasi suara asli &#183; 6 gaya visual</text>
+  <text x="60" y="374" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6E8499" letter-spacing="1">stick-content &#183; dibangun di Remotion</text>
+</svg>
